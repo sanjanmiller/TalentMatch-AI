@@ -106,7 +106,6 @@ AI Recruitment/
 ├── data/            # Local sample data
 ├── storage/         # Local databases and vector store
 ├── utilities/       # Supporting utilities
-└── tests/           # Automated and manual tests
 ```
 
 ## 🚀 Local Setup
