@@ -160,16 +160,6 @@ streamlit run app.py
 
 Open the application at `http://localhost:8501`.
 
-## ☁️ Deployment Considerations
-
-The application can be deployed using Streamlit Community Cloud. However:
-
-- A fresh deployment starts with an empty candidate database and vector index unless candidate data is seeded.
-- The current UI does not yet provide a resume-ingestion workflow.
-- Streamlit Community Cloud does not provide durable local disk storage. Runtime databases, checkpoints, and vector-store data may be lost on restart or redeployment.
-- Production use requires a persistent external storage solution and a candidate-ingestion workflow.
-- Deployment credentials must be configured securely.
-
 ## 🔐 Responsible AI & Human Oversight
 
 - Candidate evaluations should be supported by resume evidence.
