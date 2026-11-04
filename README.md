@@ -83,7 +83,6 @@ TalentMatch AI uses an LLM-based evaluation approach rather than predefined weig
 | Pydantic | Data validation |
 | PyMuPDF | PDF text extraction |
 | python-docx | DOCX text extraction |
-| Microsoft Presidio | Sensitive information detection and anonymization |
 | SMTP | Email communication |
 
 ## 📁 Project Structure
