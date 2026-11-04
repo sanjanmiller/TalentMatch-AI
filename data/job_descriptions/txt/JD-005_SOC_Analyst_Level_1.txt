@@ -1,0 +1,93 @@
+Job Title
+---------
+SOC Analyst – Level 1
+
+Company Overview
+----------------
+Cyberweave Security Operations Pvt. Ltd. is a managed security services provider based
+in Navi Mumbai. Its 24x7 security operations centre monitors networks, endpoints and
+cloud accounts for mid-sized enterprises in the finance, healthcare and manufacturing
+sectors across India.
+
+Role Summary
+------------
+The Level 1 SOC Analyst monitors security alerts, performs initial triage according to
+documented runbooks, and escalates validated incidents to Level 2 analysts with clear
+evidence. The role is designed for early-career professionals and does not require
+incident-response leadership or independent threat hunting.
+
+Key Responsibilities
+--------------------
+- Monitor SIEM alert queues during 24x7 rotational shifts and carry out initial triage
+  using runbooks.
+- Review logs from firewalls, endpoints, proxies, DNS and authentication systems to
+  classify alerts as false positive, benign or suspicious.
+- Investigate reported phishing emails by checking headers, URLs and attachments, and
+  act according to procedure.
+- Escalate validated incidents to Level 2 with a clear timeline and supporting evidence.
+- Record incidents accurately in the ticketing system and maintain shift handover notes.
+- Follow incident response procedures for common events such as malware, account
+  compromise and phishing, under supervision.
+- Identify noisy alerts and suggest candidates for false-positive tuning.
+
+Required Technical Skills
+-------------------------
+- SIEM: working use of at least one of Microsoft Sentinel, Splunk, IBM QRadar, Elastic
+  or a comparable platform for monitoring, searching and reviewing alerts. Lab or
+  training experience is acceptable.
+- Basic log analysis: Windows event logs, firewall, proxy and authentication logs.
+- Networking fundamentals: TCP/IP, DNS, HTTP and HTTPS, common ports and basic packet
+  inspection with Wireshark.
+- Common attack indicators: phishing, brute-force attempts, malware beaconing and
+  suspicious logins, with basic awareness of MITRE ATT&CK.
+- Security fundamentals: confidentiality, integrity and availability, malware types,
+  OWASP basics and identity and access concepts.
+- Incident documentation and escalation practices.
+- Basic familiarity is sufficient for EDR consoles and for scripting in Python,
+  PowerShell or Bash.
+
+Required Experience
+-------------------
+- 0 to 2 years of experience in security operations or a related role.
+- Fresh graduates are acceptable with a SOC internship, home-lab or practical training
+  that included SIEM use and alert triage.
+- Willingness to work rotational shifts, including night shifts.
+- Incident response leadership or threat hunting experience is not expected.
+
+Education
+---------
+B.Tech, B.E., BCA, B.Sc. or MCA in Computer Science, Information Technology,
+Cybersecurity, Electronics or a related field. A diploma with relevant security training
+may be considered.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): CompTIA Security+, Microsoft SC-900, Microsoft
+SC-200, Splunk Fundamentals or Core Certified User, or Certified SOC Analyst (CSA).
+
+Preferred Qualifications
+------------------------
+- A home lab using tools such as Wazuh, Splunk or Elastic.
+- Participation in capture-the-flag events.
+- Use of a phishing or malware sandbox.
+- Basic scripting for log processing.
+- Exposure to ticketing tools such as ServiceNow or Jira.
+
+Evaluation Priorities
+---------------------
+- Evidence of SIEM use, in a job, internship or lab, and of alert triage activity.
+- Networking and log analysis fundamentals shown through projects, internships or
+  coursework.
+- Phishing analysis experience.
+- Documentation and escalation practice.
+- Absence of professional experience should not count against a candidate who shows
+  practical evidence. Advanced incident response and threat hunting are not required.
+  Certifications are preferred only.
+
+Employment Details
+------------------
+- Location: Navi Mumbai, Maharashtra
+- Employment type: Full-time, permanent
+- Work arrangement: On-site at the security operations centre, 24x7 rotational shifts
+  including nights

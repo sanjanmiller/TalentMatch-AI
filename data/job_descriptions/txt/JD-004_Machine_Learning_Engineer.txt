@@ -1,0 +1,92 @@
+Job Title
+---------
+Machine Learning Engineer
+
+Company Overview
+----------------
+Nilgiri Fintech Technologies Pvt. Ltd. is a digital lending and payments company based
+in Chennai. Its machine learning platform team supports credit-risk, fraud and
+customer-engagement models used across its mobile and web products.
+
+Role Summary
+------------
+The Machine Learning Engineer turns prototype models into reliable production services.
+The role focuses on feature pipelines, model training and tuning, API serving,
+versioning, monitoring and reproducibility, working closely with data scientists who
+develop the analytical approach. It is an engineering role rather than a research role.
+
+Key Responsibilities
+--------------------
+- Build data preparation and feature engineering pipelines in Python and SQL that are
+  reproducible and tested.
+- Train, evaluate and tune models with Scikit-learn, XGBoost and a deep learning
+  framework such as PyTorch or TensorFlow against defined metrics.
+- Package and serve models through REST APIs (FastAPI or Flask) that meet latency and
+  throughput targets.
+- Build ML pipelines with experiment tracking, data and model versioning (for example
+  MLflow or DVC) and scheduled retraining.
+- Containerise services with Docker and deploy them on a cloud platform through CI/CD.
+- Monitor deployed models for performance and data drift and set up alerts.
+- Write tests and documentation, review code, and help data scientists convert prototype
+  notebooks into production code.
+
+Required Technical Skills
+-------------------------
+- Python (production-quality code) and SQL.
+- Data preparation and feature engineering with Pandas; Spark is helpful.
+- Model training, evaluation and tuning with Scikit-learn, plus working knowledge of at
+  least one deep learning framework (PyTorch or TensorFlow).
+- Hands-on model serving through REST APIs (FastAPI or Flask).
+- ML pipeline practices: experiment tracking, data and model versioning and
+  reproducibility (MLflow, DVC or equivalent).
+- Docker and Git, plus hands-on use of at least one cloud platform (AWS, Azure or GCP)
+  or a CI/CD tool.
+- Understanding of model monitoring concepts, including drift and performance tracking.
+
+Required Experience
+-------------------
+- 3 to 6 years in machine learning engineering, software engineering with ML, or data
+  science with production exposure.
+- At least 2 years of deploying or maintaining ML models in production or
+  production-like environments.
+- At least one model deployed as an API service, with the candidate's own contribution
+  clearly described.
+- Purely analytical or research experience without deployment work does not meet the
+  core requirement.
+
+Education
+---------
+B.Tech, B.E., M.Tech or MCA in Computer Science, Information Technology, Electronics or
+a related field.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): AWS Certified Machine Learning - Specialty,
+Microsoft Azure Data Scientist Associate (DP-100), Google Cloud Professional Machine
+Learning Engineer, or Certified Kubernetes Application Developer (CKAD).
+
+Preferred Qualifications
+------------------------
+- Kubernetes.
+- Airflow or Kubeflow pipelines.
+- Feature stores.
+- Spark or PySpark.
+- Model optimisation such as ONNX export.
+- Prometheus and Grafana monitoring.
+- Experience serving large language models.
+
+Evaluation Priorities
+---------------------
+- Production deployment of models, covering API serving, containers and cloud, with the
+  candidate's own role.
+- Evidence of reproducible pipelines, versioning and monitoring.
+- Engineering practices such as testing and CI/CD.
+- Competence in model development and evaluation.
+- Certifications are preferred only.
+
+Employment Details
+------------------
+- Location: Chennai, Tamil Nadu
+- Employment type: Full-time, permanent
+- Work arrangement: Hybrid, three days per week in office

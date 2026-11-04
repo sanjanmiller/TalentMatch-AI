@@ -1,0 +1,96 @@
+Job Title
+---------
+Junior Data Scientist
+
+Company Overview
+----------------
+Kaveri Insights Pvt. Ltd. is an analytics services company based in Bengaluru. It builds
+reporting and predictive analytics solutions for retail, consumer goods and logistics
+clients across India. Its data science team works in small project squads alongside
+business analysts and data engineers.
+
+Role Summary
+------------
+The Junior Data Scientist supports project squads by preparing data, exploring it,
+building baseline predictive models and presenting findings to business stakeholders.
+The role suits early-career candidates who can show hands-on practice through
+internships, academic projects or personal projects, and who want to learn under the
+guidance of senior data scientists.
+
+Key Responsibilities
+--------------------
+- Extract and join data from relational databases using SQL, then clean, validate and
+  transform it with Python (Pandas, NumPy).
+- Carry out exploratory data analysis, document data-quality issues and summarise
+  patterns using appropriate descriptive statistics.
+- Apply hypothesis tests (for example t-tests and chi-square tests) to business
+  questions and report results with clear interpretation.
+- Build and evaluate baseline machine learning models (regression, classification,
+  clustering) with Scikit-learn under senior review.
+- Create charts and dashboards in Power BI, Tableau, or Matplotlib and Seaborn.
+- Present findings to non-technical stakeholders through short written summaries and
+  walkthroughs.
+- Keep notebooks and code in Git with readable comments.
+
+Required Technical Skills
+-------------------------
+- Hands-on proficiency: Python with Pandas and NumPy for data cleaning and manipulation.
+- Hands-on proficiency: SQL, including joins, aggregations, filtering and basic window
+  functions.
+- Hands-on proficiency: exploratory data analysis and descriptive statistics.
+- Working knowledge: statistics fundamentals, including distributions, confidence
+  intervals and hypothesis testing.
+- Working knowledge, shown in at least one project: Scikit-learn models such as linear
+  and logistic regression, decision trees, random forests and k-means, with train/test
+  splits, cross-validation and metrics such as accuracy, precision, recall and RMSE.
+- Hands-on use of at least one visualisation tool: Power BI, Tableau, Matplotlib or
+  Seaborn.
+- Basic familiarity is sufficient for Git and Jupyter notebooks.
+
+Required Experience
+-------------------
+- 0 to 2 years of relevant experience.
+- Internships, academic projects, hackathons and personal projects count when they show
+  end-to-end analysis work: data cleaning, analysis and a clear conclusion.
+- Candidates with up to 2 years of professional experience should have used Python and
+  SQL in real project work.
+- Production deployment experience is not expected.
+
+Education
+---------
+Bachelor's degree (B.Tech, B.E., B.Sc., BCA) or Master's degree (MCA, M.Sc.) in Computer
+Science, Statistics, Mathematics, Data Science, Information Technology or a related
+quantitative field. Candidates from other disciplines may be considered if they show
+equivalent hands-on data skills through projects or coursework.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): Microsoft Power BI Data Analyst (PL-300),
+Tableau Desktop Specialist, or a data analysis or machine learning course certificate
+from a recognised online provider.
+
+Preferred Qualifications
+------------------------
+- Experience with retail, logistics or e-commerce analytics data.
+- Exposure to A/B testing concepts.
+- Familiarity with Plotly or Streamlit for sharing results.
+- Use of Excel for ad hoc analysis.
+- Participation in data hackathons or open-dataset competitions.
+
+Evaluation Priorities
+---------------------
+- Evidence of hands-on Python and SQL use in an internship, job or project, described
+  through specific tasks rather than skill lists alone.
+- Project evidence of data cleaning, exploratory analysis and at least one model
+  evaluated with appropriate metrics.
+- Use of statistical methods such as hypothesis testing, with interpretation of the
+  result.
+- At least one visualisation or dashboard deliverable.
+- A relevant degree. Certifications are preferred only and are not required.
+
+Employment Details
+------------------
+- Location: Bengaluru, Karnataka
+- Employment type: Full-time, permanent
+- Work arrangement: Hybrid, three days per week in office

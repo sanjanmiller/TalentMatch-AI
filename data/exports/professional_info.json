@@ -1,0 +1,1643 @@
+[
+  {
+    "candidate_id": "CAND-001",
+    "updated_at": "2026-10-26T09:13:43.759517+00:00",
+    "professional_info": {
+      "professional_summary": "Recent B.Tech graduate in Computer Science and Engineering (Data Science specialisation) with a six-month data science internship centred on churn modelling, exploratory analysis and Power BI reporting. Comfortable cleaning messy tabular data in Pandas, writing SQL with joins and window functions, and building baseline scikit-learn models with proper train/test validation. Seeking an entry-level Data Scientist or Data Analyst role.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL (MySQL",
+        "SQLite)",
+        "Data Analysis: Pandas",
+        "NumPy",
+        "exploratory data analysis",
+        "data cleaning",
+        "descriptive statistics",
+        "hypothesis testing",
+        "basics",
+        "Machine Learning: Scikit-learn",
+        "logistic regression",
+        "random forest",
+        "gradient boosting (introductory)",
+        "cross-validation",
+        "ROC-AUC",
+        "precision and recall",
+        "Visualization: Matplotlib",
+        "Seaborn",
+        "Power BI (basic)",
+        "Excel pivot tables",
+        "Tools: Jupyter Notebook",
+        "Git and GitHub",
+        "VS Code"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Data Science Intern - Kiran Analytics Pvt Ltd",
+            "Hyderabad, Telangana | Jan 2026 - Jun 2026",
+            "Cleaned and merged three customer tables (about 180,000 rows) with Pandas, resolving duplicate customer",
+            "IDs and standardising null handling; this cut preparation time for the weekly client report by roughly 40%.",
+            "Built baseline logistic regression and random forest churn models for a subscription client; the random forest",
+            "reached ROC-AUC 0.84 on a held-out month against 0.71 for the existing rule-based flag.",
+            "Wrote SQL (CTEs, joins, window functions) to produce monthly cohort retention tables used by the account",
+            "team.",
+            "Built a four-page Power BI report on churn drivers that was reviewed in weekly team meetings."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Telecom Customer Churn Prediction (Capstone) Problem: Identify telecom subscribers likely to leave in the next quarter from a public dataset of about 7,000 customers with a 26% churn rate. Approach: Performed EDA, encoded categorical features, handled class imbalance with class weights and SMOTE, and compared logistic regression, random forest and gradient boosting using stratified 5-fold cross-validation. Technologies: Python, Pandas, Scikit-learn, imbalanced-learn, Seaborn Results: Best model reached recall 0.78 and ROC-AUC 0.86; tenure, contract type and monthly charges were the strongest drivers. Retail Sales Analysis Dashboard Problem: Give a small retailer a clear view of sales by region, category and month from a transactional CSV. Approach: Cleaned dates and currency fields in Pandas, created calculated measures, and built interactive Power BI visuals with drill-down by region. Technologies: Python, Power BI, Excel Results: Highlighted that two categories contributed 61% of revenue but had the lowest margins, a finding presented in the final-year project review. House Price Prediction with Feature Engineering Problem: Predict residential prices for a Kaggle housing dataset with many missing and skewed fields. Approach: Imputed missing values, log-transformed skewed targets, engineered age and area-ratio features, and tuned a Ridge and random forest model with grid search. Technologies: Python, Scikit-learn, Matplotlib Results: Reduced RMSE by 18% compared with the baseline linear model.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Google Data Analytics Professional Certificate (Coursera",
+        "2025)",
+        "Python for Data Science (NPTEL",
+        "2024)"
+      ],
+      "achievements": [
+        "Second place",
+        "inter-college data science hackathon",
+        "2025 (team of four).",
+        "Selected as student mentor for the department's first-year Python workshop."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-002",
+    "updated_at": "2026-10-26T09:13:43.486992+00:00",
+    "professional_info": {
+      "professional_summary": "Data Scientist with three years of experience building supervised models for retail and loyalty analytics. Strong in feature engineering, leakage-free validation and gradient boosting, with working knowledge of batch scoring through Airflow. Known for translating model output into decisions category and CRM managers can act on.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL (PostgreSQL",
+        "Amazon Redshift)",
+        "Machine Learning: Scikit-learn",
+        "XGBoost",
+        "LightGBM",
+        "feature engineering",
+        "class imbalance",
+        "hyperparameter tuning with Optuna",
+        "Model Evaluation: Time-based validation",
+        "cross-validation",
+        "calibration",
+        "lift and gain charts",
+        "SHAP explanations",
+        "Forecasting: Lag and rolling features",
+        "LightGBM-based demand forecasting",
+        "WAPE and MAPE",
+        "Engineering: Airflow",
+        "Git",
+        "Docker (basic)",
+        "PSI-based drift checks",
+        "Visualization: Matplotlib",
+        "Plotly",
+        "Tableau"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Data Scientist - Nimbus Retail Technologies Pvt Ltd",
+            "Pune, Maharashtra | Apr 2025 - Present",
+            "Built a LightGBM demand forecasting model for 1,200 SKUs using lag, price and promotion features; weighted absolute percentage error fell from 22% to 16% against the previous moving-average method.",
+            "Productionised the model as a weekly Airflow batch job writing forecasts to Redshift for the replenishment team.",
+            "Added population stability index checks on the ten most important features and a Slack alert when drift exceeded an agreed threshold.",
+            "Reviewed pull requests for two junior analysts and introduced a shared validation checklist covering leakage and time-based splits.",
+            "Associate Data Scientist - Nimbus Retail Technologies Pvt Ltd",
+            "Pune, Maharashtra | Jul 2023 - Mar 2025",
+            "Developed an XGBoost churn model for the loyalty programme using 24 months of transactions and recency-frequency-monetary features; the top decile captured 3.1 times more churners than random targeting.",
+            "Designed a promotion uplift analysis with a two-model approach, helping marketing drop two low-response campaigns and save an estimated 9% of the quarterly promotion budget.",
+            "Wrote SQL transformations and data quality tests for transaction and customer tables feeding all models."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Online Returns Prediction Problem: Predict which e-commerce orders were likely to be returned to prioritise quality checks. Approach: Engineered customer return history, size-variation and delivery-delay features, tuned XGBoost with Optuna, and calibrated probabilities with isotonic regression. Technologies: Python, XGBoost, Optuna, SHAP Results: Precision at the top 10% of scored orders reached 41% versus a 14% base return rate. Price Elasticity Estimation Problem: Estimate how demand for fast-moving grocery items responds to price changes. Approach: Built log-log regression models by category with promotion and seasonality controls and validated on a hold-out of recent weeks. Technologies: Python, statsmodels, Pandas Results: Elasticity estimates were adopted by the pricing team for markdown planning on 15 categories.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Machine Learning Specialization (Coursera",
+        "2023)",
+        "Tableau Desktop Specialist (2024)"
+      ],
+      "achievements": [
+        "Received the internal Impact Award for the forecasting project",
+        "2025.",
+        "Presented the uplift modelling approach at the company's internal data meet-up."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-003",
+    "updated_at": "2026-10-26T09:13:43.773154+00:00",
+    "professional_info": {
+      "professional_summary": "Business and data analyst with two years of experience turning financial services data into dashboards and decision support. Advanced SQL, Power BI with DAX, and Python for analysis; exposure to A/B test readouts and basic regression. Best suited to analytics-heavy roles where stakeholder communication matters as much as modelling.",
+      "technical_skills": [
+        "Programming: SQL (advanced)",
+        "Python (Pandas",
+        "NumPy)",
+        "Business Intelligence: Power BI",
+        "DAX",
+        "Tableau",
+        "Excel (Power Query",
+        "pivot models)",
+        "Statistics: Descriptive statistics",
+        "confidence intervals",
+        "t-tests",
+        "chi-square tests",
+        "linear regression",
+        "Data Preparation: Data cleaning",
+        "data modelling (star schema)",
+        "reconciliation",
+        "KPI definition",
+        "Tools: Microsoft SQL Server",
+        "Git",
+        "Jira"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Business Analyst - Data - Malabar FinServe Solutions Pvt Ltd",
+            "Kochi, Kerala | Aug 2024 - Present",
+            "Own the Power BI dashboard suite for retail lending, covering disbursement, delinquency buckets and collection",
+            "efficiency; used weekly by about 40 business and operations users.",
+            "Rebuilt the delinquency model in a star schema with DAX measures, cutting report refresh time from 25 minutes",
+            "to 6 minutes.",
+            "Analysed a collections-message A/B test (about 12,000 customers per arm) with a two-proportion test and",
+            "recommended the variant that raised repayment within 7 days by 3.4 percentage points.",
+            "Wrote SQL reconciliation checks that found a 0.6% mismatch between the loan system and the finance ledger,",
+            "resolved with the data engineering team.",
+            "Documented KPI definitions in a shared data dictionary adopted by the risk and operations teams.",
+            "Data Analyst Intern - Malabar FinServe Solutions Pvt Ltd",
+            "Kochi, Kerala | Jan 2024 - Jul 2024",
+            "Prepared monthly branch performance reports in Excel and SQL, then migrated them to Power BI."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Branch Performance Scorecard Problem: Branch managers lacked a single comparable view of productivity and portfolio quality. Approach: Defined eight KPIs with business owners, modelled data in SQL Server, and built a Power BI scorecard with percentile ranks and drill-through. Technologies: SQL Server, Power BI, DAX Results: Adopted in monthly review meetings across 22 branches. Loan Default Exploratory Study Problem: Understand which applicant attributes were associated with default in a public credit dataset. Approach: Performed univariate and bivariate analysis, binned continuous variables, tested associations with chi-square tests and fitted a logistic regression baseline. Technologies: Python, Pandas, statsmodels, Seaborn Results: Documented five risk segments and a baseline model with ROC-AUC 0.77.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Microsoft Power BI Data Analyst Associate (PL-300)",
+        "SQL Advanced Certificate (HackerRank)"
+      ],
+      "achievements": [
+        "Cut dashboard refresh time by about 75% through data model redesign.",
+        "Runner-up",
+        "company analytics case competition",
+        "2025."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-004",
+    "updated_at": "2026-10-26T09:13:43.521238+00:00",
+    "professional_info": {
+      "professional_summary": "Data Scientist with over six years of experience in time-series forecasting and online experimentation for logistics and consumer businesses. Strong statistical grounding, Bayesian A/B testing and hierarchical forecasting; has deployed forecasts to planning tools on GCP. Prefers problems where uncertainty quantification drives operational decisions.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL (BigQuery",
+        "PostgreSQL)",
+        "R (basic)",
+        "Forecasting: ARIMA",
+        "SARIMAX",
+        "Prophet",
+        "LightGBM with lag features",
+        "hierarchical reconciliation",
+        "prediction intervals",
+        "Experimentation: A/B test design",
+        "power analysis",
+        "Bayesian A/B testing",
+        "CUPED variance reduction",
+        "sequential testing",
+        "Statistics: statsmodels",
+        "hypothesis testing",
+        "bootstrapping",
+        "Bayesian inference with PyMC",
+        "Platform: Google Cloud Platform (BigQuery",
+        "Cloud Composer)",
+        "Git",
+        "Docker (basic)",
+        "Visualization: Looker Studio",
+        "Matplotlib",
+        "Plotly"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Data Scientist - Marina Supply Analytics Pvt Ltd",
+            "Chennai, Tamil Nadu | Jul 2022 - Present",
+            "Lead forecasting for inbound shipment volumes across 35 warehouses with a hierarchical approach (SARIMAX at region level, LightGBM at warehouse level); 4-week MAPE improved from 19% to 12%.",
+            "Produce 80% prediction intervals that the capacity planning team uses to size temporary labour, reducing overtime cost by an estimated 8%.",
+            "Run the experimentation programme for the customer tracking portal: power analysis, CUPED adjustment and Bayesian readouts for 14 experiments in two years.",
+            "Scheduled forecast pipelines in Cloud Composer with BigQuery as the source and store.",
+            "Data Analyst - Coromandel Logistics Tech Pvt Ltd",
+            "Chennai, Tamil Nadu | Jul 2020 - Jun 2022",
+            "Built route-level on-time delivery analyses in SQL and Python and identified three depots responsible for 48% of late deliveries.",
+            "Created a seasonality-adjusted demand baseline in Prophet used for monthly business reviews.",
+            "Automated 11 recurring Excel reports with Python, saving about 20 analyst hours per month."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Bayesian A/B Testing Toolkit Problem: Product teams struggled to interpret p-values and stopped tests early. Approach: Built an internal Python library for Beta-Binomial and log-normal readouts with expected-loss reporting and guardrail metrics. Technologies: Python, PyMC, Pandas, Plotly Results: Used by three product squads; average experiment duration fell by about 20%. Hierarchical Demand Forecast Reconciliation Problem: Warehouse forecasts did not add up to regional totals. Approach: Applied bottom-up and MinT-style reconciliation, then compared methods on rolling-origin backtests. Technologies: Python, statsmodels, LightGBM Results: Reconciled forecasts reduced regional error by 2.5 points over unreconciled forecasts.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Google Cloud Professional Data Engineer (2023)",
+        "Applied Time Series Analysis (NPTEL",
+        "2021)"
+      ],
+      "achievements": [
+        "Improved headline forecast accuracy by 7 MAPE points",
+        "2024.",
+        "Internal talk: Pitfalls in sequential A/B testing",
+        "2025."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-005",
+    "updated_at": "2026-10-26T09:13:43.787369+00:00",
+    "professional_info": {
+      "professional_summary": "Statistician turned data scientist with five years of experience in healthcare and pharma analytics. Specialises in survival analysis, causal inference and rigorous study design, working in both R and Python. Emphasis on interpretability, validation documentation and clear communication to clinical and commercial stakeholders.",
+      "technical_skills": [
+        "Programming: R (tidyverse",
+        "survival",
+        "lme4)",
+        "Python (Pandas",
+        "statsmodels",
+        "scikit-learn)",
+        "SQL",
+        "Statistics: Survival analysis (Kaplan-Meier",
+        "Cox models)",
+        "mixed-effects models",
+        "propensity score matching",
+        "power",
+        "analysis",
+        "Experimentation: Observational study design",
+        "difference-in-differences",
+        "A/B test analysis",
+        "Machine Learning: Regularised regression",
+        "random forest",
+        "gradient boosting",
+        "model calibration",
+        "Visualization and Reporting: Tableau",
+        "ggplot2",
+        "R Markdown",
+        "Matplotlib",
+        "Data Handling: EDA",
+        "missing data (multiple imputation)",
+        "data validation"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Data Scientist - Konkan HealthMetrics Pvt Ltd",
+            "Mumbai, Maharashtra | Apr 2024 - Present",
+            "Lead analyses on patient adherence for a chronic-care programme, using Cox models with time-varying",
+            "covariates to quantify the effect of reminder frequency on discontinuation.",
+            "Used propensity score matching on about 48,000 patients to estimate programme impact; the matched analysis",
+            "showed an 11% relative improvement in 6-month adherence.",
+            "Produce validation reports for every model, covering calibration, subgroup performance and sensitivity analysis,",
+            "reviewed by a medical advisory group.",
+            "Mentor two junior analysts on study design and reproducible R workflows.",
+            "Associate Data Scientist - Konkan HealthMetrics Pvt Ltd",
+            "Mumbai, Maharashtra | Aug 2021 - Mar 2024",
+            "Built a hospital readmission risk model (regularised logistic regression with calibration) that reached ROC-AUC",
+            "0.74 while remaining explainable to clinicians.",
+            "Applied multiple imputation to lab data with 30% missingness and compared results against complete-case",
+            "analysis.",
+            "Created Tableau dashboards on programme enrolment and outcomes for commercial teams."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Sales Force Effectiveness Study Problem: Determine whether additional field visits improved prescription uptake. Approach: Applied difference-in-differences with matched control territories and tested parallel-trends assumptions. Technologies: R, Python, statsmodels Results: Estimated a 4.2% uplift attributable to extra visits, informing the next territory plan. Reproducible Analysis Template Problem: Analyses were difficult to reproduce across team members. Approach: Created an R Markdown project template with environment locking, data checks and automatic report generation. Technologies: R, renv, Git Results: Adopted across the analytics team for new studies.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Statistical Learning (Stanford Online",
+        "2022)",
+        "Tableau Certified Data Analyst (2023)"
+      ],
+      "achievements": [
+        "Led an analysis that shaped a programme redesign for patients across four states.",
+        "Paper summary on propensity score methods presented at an internal journal club",
+        "2024."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-006",
+    "updated_at": "2026-10-26T09:13:43.549748+00:00",
+    "professional_info": {
+      "professional_summary": "Lead Data Scientist with over ten years of experience building and operating credit risk and fraud models in production. Combines modelling depth with MLOps practice: containerised scoring services, CI/CD, model monitoring and governance. Has led teams of up to six data scientists and works closely with risk, engineering and compliance.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL",
+        "PySpark",
+        "Bash",
+        "Machine Learning: XGBoost",
+        "LightGBM",
+        "logistic regression scorecards",
+        "anomaly detection",
+        "imbalanced learning",
+        "Model Operations: MLflow",
+        "Docker",
+        "Airflow",
+        "Jenkins CI/CD",
+        "AWS SageMaker",
+        "batch and REST scoring",
+        "Monitoring: PSI and CSI drift monitoring",
+        "Evidently",
+        "performance back-testing",
+        "alerting with Prometheus and Grafana",
+        "Governance: Model documentation",
+        "validation reviews",
+        "explainability with SHAP",
+        "fairness checks",
+        "Leadership: Team mentoring",
+        "roadmap planning",
+        "stakeholder management"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Lead Data Scientist - Aravalli Risk Technologies Pvt Ltd",
+            "Gurugram, Haryana | Apr 2022 - Present",
+            "Lead a team of six data scientists delivering credit and fraud models for retail lending; own the model lifecycle from development to monitoring.",
+            "Rebuilt the application scorecard pipeline with gradient boosting and monotonic constraints, improving Gini from 0.52 to 0.61 while preserving explainability for compliance.",
+            "Designed a model monitoring framework (PSI, CSI, back-tested KS, alerting) covering 14 production models; it caught two upstream data defects before they affected approvals.",
+            "Moved batch scoring to containerised services on AWS with MLflow registry and Jenkins pipelines, cutting release time from two weeks to two days.",
+            "Data Scientist - Capital Gate Analytics Pvt Ltd",
+            "Gurugram, Haryana | Jan 2019 - Mar 2022",
+            "Developed a card transaction fraud model on 40 million records using PySpark and LightGBM; fraud detection rate improved by 17% at the same false positive rate.",
+            "Implemented near-real-time rule and model scoring in a REST service with latency under 80 ms at the 95th percentile.",
+            "Mentored four analysts and introduced peer review for modelling code.",
+            "Software Engineer - Analytics - Capital Gate Analytics Pvt Ltd",
+            "Gurugram, Haryana | Jul 2016 - Dec 2018",
+            "Built ETL jobs in Python and SQL for collections reporting and an early customer propensity model.",
+            "Automated monthly regulatory data extracts, reducing manual effort by 30 hours per month."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Model Monitoring Framework Problem: Models degraded silently between annual validations. Approach: Built a reusable monitoring package that computes drift, stability and performance metrics on a schedule and publishes to Grafana with alert rules. Technologies: Python, Evidently, Airflow, Grafana Results: Reduced detection time for data drift from months to days across 14 models. Feature Store Pilot for Risk Models Problem: Features were re-implemented inconsistently between training and serving. Approach: Defined shared feature definitions with versioning and point-in-time correctness checks. Technologies: PySpark, Delta tables, Python Results: Eliminated training-serving skew incidents in the pilot portfolio.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "AWS Certified Machine Learning - Specialty (2022)",
+        "Databricks Certified Associate Developer for Apache Spark (2021)"
+      ],
+      "achievements": [
+        "Promoted to Lead in 2022 after delivering the scorecard rebuild.",
+        "Reduced model release cycle by about 85% through CI/CD adoption."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-007",
+    "updated_at": "2026-10-26T09:13:43.803898+00:00",
+    "professional_info": {
+      "professional_summary": "Data Scientist with almost four years of experience in e-commerce analytics. Strong in data cleaning, feature engineering and visual storytelling, with interactive Streamlit and Plotly tools built for non-technical teams. Uses classical NLP for review analysis; moving from analyst work into end-to-end modelling.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL (MySQL",
+        "BigQuery)",
+        "Data Wrangling: Pandas",
+        "NumPy",
+        "data cleaning",
+        "outlier treatment",
+        "missing value strategies",
+        "feature engineering",
+        "pipelines",
+        "Machine Learning: Scikit-learn",
+        "random forest",
+        "gradient boosting",
+        "KMeans",
+        "TF-IDF with logistic regression",
+        "Visualization: Plotly",
+        "Matplotlib",
+        "Seaborn",
+        "Streamlit",
+        "Looker Studio",
+        "Text Analytics: Review sentiment analysis",
+        "topic modelling with LDA",
+        "spaCy basics",
+        "Tools: Git",
+        "Jupyter",
+        "Docker (basic)"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Data Scientist - Pink City Commerce Labs Pvt Ltd",
+            "Jaipur, Rajasthan | Jul 2024 - Present",
+            "Built a customer lifetime value prediction pipeline with Pandas and scikit-learn pipelines; deciles from the model",
+            "guided retention spend for the top 20% of customers.",
+            "Created a Streamlit app that lets merchandisers explore product performance, price bands and return rates",
+            "without writing SQL; adopted by 25 users.",
+            "Analysed 90,000 product reviews with TF-IDF and LDA topics, surfacing packaging and sizing complaints that",
+            "led to two catalogue changes.",
+            "Standardised feature engineering code into reusable transformers shared across three projects.",
+            "Data Analyst - Pink City Commerce Labs Pvt Ltd",
+            "Jaipur, Rajasthan | Dec 2022 - Jun 2024",
+            "Cleaned and reconciled marketplace order data from five sources, reducing report discrepancies by 70%.",
+            "Built weekly Looker Studio dashboards on conversion, cart abandonment and category performance.",
+            "Ran customer segmentation with KMeans on purchase behaviour and shared four segments with marketing."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Return Reason Explorer Problem: Operations could not see which factors drove returns. Approach: Cleaned free-text return reasons, grouped them with keyword rules and LDA, and built an interactive Plotly dashboard. Technologies: Python, Plotly, Streamlit Results: Showed that 38% of apparel returns related to sizing, triggering updated size guides. Sales Forecast Notebook for Seasonal Categories Problem: Seasonal categories were over-stocked after festivals. Approach: Compared seasonal naive, Holt-Winters and gradient boosting baselines using rolling backtests. Technologies: Python, statsmodels, Scikit-learn Results: Holt-Winters cut error on three categories by 14% versus the naive baseline.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Data Visualization with Python (IBM",
+        "Coursera",
+        "2023)",
+        "Mathematics for Machine Learning (Coursera",
+        "2022)"
+      ],
+      "achievements": [
+        "Streamlit tools adopted by merchandising and operations teams.",
+        "Best Data Story award at company hack day",
+        "2024."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-008",
+    "updated_at": "2026-10-26T09:13:43.595760+00:00",
+    "professional_info": {
+      "professional_summary": "Recent B.Tech graduate in AI and Machine Learning with a three-month internship building retrieval-augmented question answering prototypes. Hands-on with embeddings, FAISS and Chroma, LangChain and FastAPI; limited exposure to classical machine learning beyond coursework. Seeking a junior GenAI or ML engineer role.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL (basic)",
+        "JavaScript (basic)",
+        "GenAI and RAG: LangChain",
+        "sentence-transformers embeddings",
+        "FAISS",
+        "ChromaDB",
+        "chunking strategies",
+        "prompt templates",
+        "hosted LLM APIs",
+        "NLP: Hugging Face Transformers",
+        "DistilBERT fine-tuning",
+        "text classification",
+        "APIs and Apps: FastAPI",
+        "Streamlit",
+        "REST",
+        "Pydantic",
+        "Tools: Git",
+        "Docker (basic)",
+        "Postman",
+        "Linux"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Machine Learning Engineer Intern - Lumen Cognitive Labs Pvt Ltd",
+            "Bengaluru, Karnataka | Apr 2026 - Jul 2026",
+            "Built a RAG prototype over 300 internal support articles using sentence-transformers and FAISS, with a FastAPI endpoint and a Streamlit front end.",
+            "Compared fixed-size and paragraph-based chunking on 60 hand-labelled questions; paragraph chunks with overlap raised top-3 retrieval hit rate from 62% to 78%.",
+            "Wrote a small evaluation script that scores answers for groundedness against retrieved context and logs failures for review.",
+            "Added input validation and a refusal message for questions outside the knowledge base."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "College Policy Assistant (RAG) Problem: Students struggled to find answers in lengthy regulation PDFs. Approach: Extracted and chunked PDF text, embedded chunks with a sentence-transformer, stored vectors in Chroma, and generated answers with source citations through an LLM API. Technologies: Python, LangChain, ChromaDB, Streamlit Results: Answered 41 of 50 test questions correctly with citations; piloted by 30 students. Sentiment Classifier with DistilBERT Problem: Classify product reviews into positive, neutral and negative. Approach: Fine-tuned DistilBERT with Hugging Face Trainer, applied early stopping and compared against a TF-IDF logistic regression baseline. Technologies: PyTorch, Hugging Face, Scikit-learn Results: Macro F1 0.88 versus 0.81 for the baseline. Prompt Evaluation Harness Problem: Prompt changes were being judged by eye. Approach: Built a small harness that runs prompt variants over a labelled question set and reports accuracy, latency and token usage in a table. Technologies: Python, Pandas, pytest Results: Used by the team during the internship to select between two prompt versions.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Generative AI with Large Language Models (Coursera",
+        "2025)",
+        "Deep Learning Specialization (Coursera",
+        "2024)"
+      ],
+      "achievements": [
+        "Winner",
+        "college GenAI hackathon",
+        "2025.",
+        "Open-source contribution: documentation fixes to a Python RAG utility library."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-009",
+    "updated_at": "2026-10-26T09:13:43.819688+00:00",
+    "professional_info": {
+      "professional_summary": "NLP Engineer with two years of experience fine-tuning transformer models for Indian-language text classification and entity extraction. Strong in dataset annotation, evaluation and error analysis; serves models through FastAPI and Docker. Limited experience with large language model applications beyond prompt experiments.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL",
+        "NLP: Hugging Face Transformers",
+        "BERT and XLM-RoBERTa fine-tuning",
+        "spaCy",
+        "named entity recognition",
+        "text",
+        "classification",
+        "tokenisation for Tamil and Hindi",
+        "Machine Learning: PyTorch",
+        "scikit-learn",
+        "evaluation (precision",
+        "recall",
+        "F1",
+        "confusion analysis)",
+        "active learning",
+        "Data: Annotation guidelines",
+        "Label Studio",
+        "inter-annotator agreement",
+        "Deployment: FastAPI",
+        "Docker",
+        "MLflow experiment tracking",
+        "ONNX export (basic)",
+        "LLM Exposure: Prompt experiments with hosted LLM APIs for data labelling assistance"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "NLP Engineer - Tamarind Language Technologies Pvt Ltd",
+            "Chennai, Tamil Nadu | Jul 2024 - Present",
+            "Fine-tuned XLM-RoBERTa for complaint classification in Tamil, Hindi and English across 14 categories; macro",
+            "F1 rose from 0.71 (TF-IDF baseline) to 0.86.",
+            "Developed a named entity recognition model for addresses and product names in code-mixed text using a",
+            "spaCy transformer pipeline; entity F1 reached 0.91 on the test set.",
+            "Created annotation guidelines and ran Label Studio sessions with four annotators; improved Cohen's kappa",
+            "from 0.68 to 0.82 after guideline revision.",
+            "Packaged models as FastAPI services in Docker and tracked experiments with MLflow; p95 latency 120 ms on",
+            "CPU after quantisation.",
+            "Used LLM prompts to pre-label 5,000 samples, which human annotators then corrected, saving about 35% of",
+            "labelling time."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Code-mixed Sentiment Analysis Problem: Customer reviews mix English with Tamil and Hindi in Roman script. Approach: Normalised transliteration variants, fine-tuned a multilingual transformer and examined failures by language mix. Technologies: PyTorch, Hugging Face, Python Results: Weighted F1 0.84; error analysis identified sarcasm and negation as top failure types. Resume Skill Extraction (Academic) Problem: Extract skill phrases from semi-structured resumes. Approach: Annotated 400 documents, trained a spaCy NER model and added rule-based post-processing for abbreviations. Technologies: spaCy, Label Studio, Python Results: Entity F1 0.83 on a held-out set of 80 resumes.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Natural Language Processing Specialization (Coursera",
+        "2023)",
+        "Hugging Face NLP Course (completed"
+      ],
+      "achievements": [
+        "Paper on code-mixed sentiment accepted at a regional NLP workshop",
+        "2024.",
+        "Reduced labelling effort by 35% with LLM-assisted pre-labelling."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-010",
+    "updated_at": "2026-10-26T09:13:43.620200+00:00",
+    "professional_info": {
+      "professional_summary": "Machine Learning Engineer with over three years of experience delivering computer vision systems for manufacturing. Experienced in training CNN models, optimising inference and deploying containerised services with CI/CD. Focused on classical deep learning and MLOps rather than language models.",
+      "technical_skills": [
+        "Programming: Python",
+        "C++ (basic)",
+        "SQL",
+        "Deep Learning: PyTorch",
+        "CNNs",
+        "transfer learning",
+        "object detection (YOLO",
+        "Faster R-CNN)",
+        "OpenCV",
+        "data augmentation",
+        "Optimisation: ONNX Runtime",
+        "TensorRT basics",
+        "quantisation",
+        "batching",
+        "MLOps: MLflow",
+        "DVC",
+        "GitHub Actions",
+        "Docker",
+        "Kubernetes (basic)",
+        "Cloud: AWS (S3",
+        "EC2",
+        "ECR",
+        "SageMaker endpoints)",
+        "Serving: FastAPI",
+        "gRPC",
+        "REST",
+        "Prometheus metrics"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Machine Learning Engineer - Sahyadri Vision Systems Pvt Ltd",
+            "Pune, Maharashtra | Jul 2023 - Present",
+            "Built an industrial surface defect detection model using EfficientNet and YOLO variants on 60,000 labelled images; recall for critical defects reached 96% with 2.1% false rejects.",
+            "Converted models to ONNX and applied FP16 optimisation, bringing inference from 85 ms to 31 ms per frame on edge GPUs.",
+            "Set up DVC for dataset versioning and GitHub Actions to retrain, validate and publish container images to ECR.",
+            "Deployed FastAPI inference services to three plants and added Prometheus metrics for latency and confidence distribution.",
+            "Led annotation quality review with plant quality engineers, reducing label noise by an estimated 6%."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Edge Defect Detection Service Problem: Plants needed on-line inspection without sending images to the cloud. Approach: Compressed the detector with FP16 and pruning, wrapped it in a gRPC service and built an automatic rollback if confidence drift exceeded limits. Technologies: PyTorch, ONNX Runtime, Docker, gRPC Results: Deployed at three plants; inspection throughput improved by 2.6 times. Customer Churn Model (Personal Project) Problem: Practise tabular modelling on a public telecom dataset. Approach: Built XGBoost and logistic regression models and exposed predictions with a REST API and MLflow tracking. Technologies: Python, XGBoost, MLflow, FastAPI Results: ROC-AUC 0.85 with a documented reproducible pipeline.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "AWS Certified Cloud Practitioner (2023)",
+        "TensorFlow Developer Certificate (2022)"
+      ],
+      "achievements": [
+        "Cut inference latency by 63% for plant deployment.",
+        "Received the Rising Engineer award",
+        "2025."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-011",
+    "updated_at": "2026-10-26T09:13:43.832770+00:00",
+    "professional_info": {
+      "professional_summary": "Software engineer turned GenAI engineer with five years of experience, the last two and a half building retrieval-augmented generation systems for enterprise knowledge and support use cases. Strong in backend design, embeddings, vector databases and LLM evaluation. Experience with traditional model training is limited.",
+      "technical_skills": [
+        "Programming: Python",
+        "TypeScript (basic)",
+        "SQL",
+        "RAG and LLMs: LangChain",
+        "LlamaIndex",
+        "Azure OpenAI",
+        "hybrid retrieval",
+        "re-ranking",
+        "chunking",
+        "prompt",
+        "engineering",
+        "guardrails",
+        "Vector Databases: Qdrant",
+        "Pinecone",
+        "pgvector",
+        "FAISS",
+        "Evaluation: RAGAS",
+        "golden question sets",
+        "LLM-as-judge",
+        "groundedness and answer relevance metrics",
+        "Backend: FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "REST API design",
+        "Cloud: Azure (App Service",
+        "Blob Storage",
+        "Key Vault)",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Machine Learning Engineer - GenAI - Charminar Digital Solutions Pvt Ltd",
+            "Hyderabad, Telangana | Jan 2024 - Present",
+            "Designed and shipped a RAG assistant over 12,000 policy and process documents using Qdrant, hybrid BM25",
+            "and vector retrieval and a cross-encoder re-ranker; answer acceptance by agents rose from 58% to 81%.",
+            "Built an evaluation pipeline with 250 golden questions and RAGAS metrics that runs on every prompt or",
+            "retriever change in CI.",
+            "Reduced hallucinated answers by adding retrieval confidence thresholds, citation enforcement and a safe",
+            "fallback response.",
+            "Cut average LLM cost per query by 35% through context compression, caching of frequent queries in Redis and",
+            "routing simple queries to a smaller model.",
+            "Exposed the assistant through FastAPI with role-based access controls and audit logging.",
+            "Software Engineer - Charminar Digital Solutions Pvt Ltd",
+            "Hyderabad, Telangana | Aug 2021 - Dec 2023",
+            "Built Python microservices and REST APIs for a customer support platform handling about 50,000 tickets per",
+            "month.",
+            "Implemented a ticket similarity feature using sentence embeddings and pgvector, which became the starting",
+            "point for the GenAI team.",
+            "Improved PostgreSQL query performance on ticket search, reducing p95 latency from 900 ms to 220 ms."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Contract Clause Q&A Problem: Legal ops needed fast answers from long vendor contracts. Approach: Used structure-aware chunking by clause, metadata filters for vendor and date, hybrid retrieval and answer citations. Technologies: Python, LlamaIndex, Qdrant, Azure OpenAI Results: Reviewers reported saving about 30 minutes per contract query batch. RAG Evaluation Dashboard Problem: Teams lacked visibility into retrieval and answer quality over time. Approach: Logged queries, retrieved chunks and judge scores, then built a dashboard to surface regressions. Technologies: Python, PostgreSQL, Streamlit, RAGAS Results: Detected two retrieval regressions before release.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Microsoft Azure AI Engineer Associate (AI-102)",
+        "DeepLearning.AI: Building Systems with the ChatGPT API"
+      ],
+      "achievements": [
+        "Lowered LLM serving cost by 35% while improving acceptance.",
+        "Internal workshop on RAG evaluation attended by 60 engineers."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-012",
+    "updated_at": "2026-10-26T09:13:43.644317+00:00",
+    "professional_info": {
+      "professional_summary": "Senior ML Engineer with seven years of experience building ML platform and model serving infrastructure. Focus on reliable training pipelines, feature stores, Kubernetes-based serving and observability across AWS and GCP. Recently extended the platform to host open-source LLMs for internal teams.",
+      "technical_skills": [
+        "Programming: Python",
+        "Go (basic)",
+        "Bash",
+        "SQL",
+        "ML Platform: Kubeflow Pipelines",
+        "MLflow",
+        "Feast feature store",
+        "Airflow",
+        "Vertex AI",
+        "SageMaker",
+        "Serving: KServe",
+        "Triton Inference Server",
+        "FastAPI",
+        "vLLM",
+        "autoscaling",
+        "canary deployments",
+        "Infrastructure: Kubernetes",
+        "Terraform",
+        "Helm",
+        "Docker",
+        "GitHub Actions",
+        "ArgoCD",
+        "Observability: Prometheus",
+        "Grafana",
+        "OpenTelemetry",
+        "model drift and latency monitoring",
+        "Machine Learning: scikit-learn",
+        "XGBoost",
+        "PyTorch (working knowledge)"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Senior ML Engineer - Nandi Cloud Data Pvt Ltd",
+            "Bengaluru, Karnataka | Oct 2023 - Present",
+            "Lead design of the internal ML platform used by 40 data scientists, standardising training pipelines, model registry and promotion workflow.",
+            "Built a KServe-based serving layer with canary rollouts and automatic rollback, reaching 99.9% availability over 12 months across 25 models.",
+            "Deployed open-source LLMs with vLLM on GPU nodes with autoscaling, cutting cost per thousand tokens by about 40% against the previous setup.",
+            "Wrote Terraform modules for reproducible environments on AWS, reducing new project onboarding from two weeks to three days.",
+            "ML Engineer - Nandi Cloud Data Pvt Ltd",
+            "Bengaluru, Karnataka | Jul 2021 - Sep 2023",
+            "Implemented Feast-based feature store with point-in-time joins serving recommendations and risk models.",
+            "Moved batch training pipelines from cron scripts to Kubeflow, improving reruns and cutting failed runs by 60%.",
+            "Added drift and latency dashboards in Grafana for all production models.",
+            "Software Engineer - Lalbagh Software Services Pvt Ltd",
+            "Bengaluru, Karnataka | Nov 2019 - Jun 2021",
+            "Developed Python backend services and CI/CD pipelines for a data analytics product.",
+            "Containerised legacy applications and migrated them to Kubernetes."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Unified Model Registry and Promotion Workflow Problem: Model releases were manual and inconsistent across teams. Approach: Built approval gates in MLflow and ArgoCD with automated checks for schema, performance and bias thresholds. Technologies: MLflow, ArgoCD, Python, Kubernetes Results: Release lead time fell from five days to under one day. Internal LLM Gateway Problem: Teams were calling external LLM APIs without cost control. Approach: Built a gateway with authentication, rate limiting, usage tracking and routing to self-hosted or hosted models. Technologies: FastAPI, vLLM, Redis, Prometheus Results: Gave central cost visibility and cut duplicate calls through caching.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator (CKA)",
+        "Google Professional Machine Learning Engineer (2022)"
+      ],
+      "achievements": [
+        "Achieved 99.9% availability for production model serving.",
+        "Spoke at an internal engineering summit on ML platform lessons",
+        "2024."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-013",
+    "updated_at": "2026-10-26T09:13:43.850132+00:00",
+    "professional_info": {
+      "professional_summary": "Lead ML Engineer with over nine years of experience in search, ranking and NLP for e-commerce and job marketplaces. Deep expertise in hybrid retrieval, dense embeddings, learning-to-rank and offline relevance evaluation. Has led a team of five and recently introduced LLM-based query rewriting and reranking to production search.",
+      "technical_skills": [
+        "Programming: Python",
+        "Java",
+        "SQL",
+        "Search and Retrieval: Elasticsearch",
+        "OpenSearch",
+        "BM25",
+        "hybrid search",
+        "dense retrieval",
+        "cross-encoder",
+        "re-ranking",
+        "query expansion",
+        "Embeddings and Vector Search: sentence-transformers",
+        "FAISS",
+        "Milvus",
+        "HNSW index tuning",
+        "embedding",
+        "fine-tuning",
+        "Ranking and Evaluation: LambdaMART learning-to-rank",
+        "NDCG",
+        "MRR",
+        "recall at k",
+        "interleaving",
+        "A/B testing",
+        "LLM Applications: LLM query rewriting",
+        "LLM-based relevance labelling",
+        "prompt engineering",
+        "Engineering: Kafka",
+        "Spark",
+        "Docker",
+        "AWS",
+        "FastAPI",
+        "team leadership"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Lead ML Engineer - Search and NLP - Hindon Marketplace Technologies Pvt Ltd",
+            "Noida, Uttar Pradesh | Sep 2022 - Present",
+            "Lead a five-person team owning search relevance for a job marketplace with about 8 million documents.",
+            "Introduced a hybrid retrieval stack combining BM25 and fine-tuned bi-encoder embeddings in Milvus with",
+            "cross-encoder re-ranking; NDCG@10 improved by 14% in offline tests and 6% click-through in an A/B test.",
+            "Created a relevance judgement pipeline using LLM labelling validated against 2,000 human labels (agreement",
+            "87%), enabling weekly offline evaluation.",
+            "Introduced LLM-based query rewriting for long-tail queries, reducing zero-result searches by 31%.",
+            "ML Engineer - Hindon Marketplace Technologies Pvt Ltd",
+            "Noida, Uttar Pradesh | Apr 2020 - Aug 2022",
+            "Built a LambdaMART ranker with 60 features and online feature logging.",
+            "Developed an entity extraction model for skills and titles that powered filters and query understanding.",
+            "Tuned HNSW parameters to balance recall and latency, reaching 95% recall at 25 ms.",
+            "Software Engineer - Search - Gomti Commerce Pvt Ltd",
+            "Noida, Uttar Pradesh | Aug 2017 - Mar 2020",
+            "Maintained Elasticsearch clusters and implemented custom analyzers for multilingual product search.",
+            "Built Kafka-based indexing pipelines handling about 2 million document updates per day."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Semantic Job-Candidate Matching Problem: Keyword search missed relevant candidates with differently worded skills. Approach: Fine-tuned a bi-encoder on click and application pairs with hard negatives and added a re-ranking stage. Technologies: PyTorch, sentence-transformers, Milvus Results: Recall at 50 rose from 0.62 to 0.78 on the evaluation set. Search Relevance Evaluation Platform Problem: Relevance changes were tested only through slow online experiments. Approach: Built a platform that replays queries against candidate configurations and reports NDCG, MRR and failure examples. Technologies: Python, OpenSearch, Airflow Results: Cut experiment iteration time from two weeks to two days.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Elasticsearch Engineer Certification (Elastic)",
+        "Natural Language Processing with Attention Models (Coursera",
+        "2021)"
+      ],
+      "achievements": [
+        "Search relevance programme recognised with the company Innovation Award",
+        "2023.",
+        "Reviewer for an industry search-and-IR workshop",
+        "2024."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-014",
+    "updated_at": "2026-10-26T09:13:43.669534+00:00",
+    "professional_info": {
+      "professional_summary": "Machine Learning Engineer with six years of experience in recommender systems and large-scale tabular modelling. Strong in feature pipelines, ranking models and experimentation on GCP; recently added GenAI work for product content generation with guardrails and human review.",
+      "technical_skills": [
+        "Programming: Python",
+        "SQL",
+        "PySpark",
+        "Recommender Systems: Matrix factorisation",
+        "two-tower retrieval models",
+        "candidate generation",
+        "ranking with LightGBM",
+        "cold-start strategies",
+        "Machine Learning: XGBoost",
+        "LightGBM",
+        "scikit-learn",
+        "TensorFlow",
+        "feature engineering at scale",
+        "model calibration",
+        "Experimentation: A/B testing",
+        "offline evaluation (NDCG",
+        "MAP",
+        "hit rate)",
+        "counterfactual evaluation basics",
+        "Data and Cloud: GCP (BigQuery",
+        "Dataproc",
+        "Vertex AI)",
+        "Airflow",
+        "Docker",
+        "GenAI: Prompt engineering",
+        "LLM-generated product descriptions",
+        "output validation",
+        "human-in-the-loop review"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Machine Learning Engineer - Sabarmati Retail Tech Pvt Ltd",
+            "Ahmedabad, Gujarat | Jul 2023 - Present",
+            "Own the home-page recommendation ranker; moved from a popularity baseline to a two-tower retrieval plus LightGBM ranking pipeline, lifting click-through by 9% and revenue per session by 4% in A/B tests.",
+            "Built daily feature pipelines in PySpark and BigQuery serving over 20 million user-item interactions.",
+            "Led a GenAI pilot that generated draft product descriptions with prompt templates, attribute validation and human review; editors reported about 45% less drafting time.",
+            "Introduced offline evaluation reports (NDCG, coverage, diversity) before every experiment launch.",
+            "Associate ML Engineer - Sabarmati Retail Tech Pvt Ltd",
+            "Ahmedabad, Gujarat | Aug 2020 - Jun 2023",
+            "Built item-to-item similarity models using co-purchase embeddings for related-product widgets.",
+            "Developed a delivery-time prediction model with XGBoost, reducing mean absolute error by 22%.",
+            "Automated training and scoring workflows in Airflow with data quality checks."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Cold-start Recommendation Strategy Problem: New products and users received poor recommendations. Approach: Combined content embeddings, category priors and exploration slots with a bandit-style allocation. Technologies: Python, TensorFlow, BigQuery Results: Increased new-item impressions by 3 times without lowering overall click-through. Product Description Generation Pilot Problem: Catalogue teams spent hours writing descriptions for new SKUs. Approach: Used structured attributes in prompts, enforced attribute consistency with validators and added editor approval. Technologies: Python, hosted LLM API, FastAPI Results: Rejected-for-factual-error rate fell below 5% after validation rules.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Google Professional Machine Learning Engineer (2023)",
+        "Recommender Systems Specialization (Coursera",
+        "2021)"
+      ],
+      "achievements": [
+        "Home-page ranking project contributed to a 4% revenue per session increase.",
+        "Best Engineering Practice award",
+        "2024."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-015",
+    "updated_at": "2026-10-26T09:13:43.864821+00:00",
+    "professional_info": {
+      "professional_summary": "Entry-level SOC analyst with a six-month internship in alert triage and phishing analysis. Practised Splunk searches, Windows event log review and basic MITRE ATT&CK mapping, and maintains a Wazuh home lab. Looking for an L1 SOC analyst role with mentoring on incident handling and escalation.",
+      "technical_skills": [
+        "SOC Fundamentals: Alert triage",
+        "ticket documentation",
+        "escalation procedures",
+        "shift handover",
+        "phishing analysis",
+        "SIEM and Logs: Splunk (SPL basics)",
+        "Wazuh",
+        "Windows Event Logs (4624",
+        "4625",
+        "4688)",
+        "Linux auth logs",
+        "Networking: TCP/IP",
+        "DNS",
+        "HTTP",
+        "Wireshark",
+        "firewall log reading",
+        "Threat Knowledge: MITRE ATT&CK basics",
+        "common malware types",
+        "OWASP Top 10 awareness",
+        "VirusTotal and",
+        "AbuseIPDB lookups",
+        "Scripting: Python (basic)",
+        "Bash (basic)",
+        "Learning Platforms: TryHackMe",
+        "LetsDefend"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "SOC Analyst Intern (L1) - Rajputana Managed Security Pvt Ltd",
+            "Jaipur, Rajasthan | Dec 2025 - May 2026",
+            "Triaged about 25 alerts per shift from Splunk under L2 supervision, closing false positives with documented",
+            "reasoning and escalating confirmed cases.",
+            "Analysed 60+ reported phishing emails by checking headers, URLs and attachments in a sandbox; flagged 14",
+            "malicious emails that led to sender blocks.",
+            "Wrote three SPL searches for repeated failed logons and rare process creation that were added to the team's",
+            "saved searches.",
+            "Mapped escalated cases to MITRE ATT&CK techniques in the case notes and joined weekly detection review",
+            "calls."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Wazuh Home Lab Problem: Practise detection and response on realistic endpoint logs. Approach: Deployed a Wazuh server with Windows and Linux agents, simulated brute-force and persistence activity in a test network, and tuned rules to reduce noise. Technologies: Wazuh, Windows 10 VM, Ubuntu, Kali Linux Results: Documented detections for 8 test attacks and cut noisy alerts by about 30% after tuning. Phishing Email Investigation Playbook Problem: Standardise how a new analyst investigates reported phishing. Approach: Wrote a step-by-step checklist covering headers, URL reputation, attachment sandboxing and user notification. Technologies: Python, VirusTotal, URLScan, Markdown Results: Used by two other interns for consistent case notes. Network Traffic Analysis Exercise Problem: Identify suspicious behaviour in a packet capture of a simulated compromise. Approach: Used Wireshark filters to find DNS tunnelling and beaconing patterns and wrote an incident summary. Technologies: Wireshark, Zeek (basic) Results: Correctly identified command-and-control traffic in lab scenario.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "CompTIA Security+ (2026)",
+        "Splunk Core Certified User (2025)",
+        "TryHackMe SOC Level 1 Path (completed)"
+      ],
+      "achievements": [
+        "Top 5%",
+        "national student capture-the-flag event",
+        "2025.",
+        "Founded the college cyber security club's blue team study group."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-016",
+    "updated_at": "2026-10-26T09:13:43.693716+00:00",
+    "professional_info": {
+      "professional_summary": "L1 Security Analyst with about one year of experience monitoring Microsoft Sentinel and Defender alerts for managed security clients. Skilled in phishing triage, basic KQL queries and clear ticket documentation. Working towards L2 responsibilities in endpoint investigation and incident response.",
+      "technical_skills": [
+        "SOC Operations: 24x7 shift monitoring",
+        "alert triage",
+        "ServiceNow ticketing",
+        "SLA adherence",
+        "escalation to L2",
+        "SIEM: Microsoft Sentinel (incident queue",
+        "workbooks)",
+        "KQL basics",
+        "Endpoint and Email: Microsoft Defender for Endpoint alerts",
+        "Defender for Office 365",
+        "phishing triage",
+        "Identity: Entra ID sign-in log review",
+        "risky sign-ins",
+        "MFA fatigue patterns",
+        "Threat Knowledge: MITRE ATT&CK basics",
+        "phishing kill chain",
+        "IOC enrichment",
+        "Networking: TCP/IP",
+        "DNS",
+        "proxy logs"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "L1 Security Analyst - Backwater Secure Managed Services Pvt Ltd",
+            "Kochi, Kerala | Nov 2025 - Present",
+            "Monitor Sentinel incidents for four managed clients in rotating shifts, triaging about 30 incidents per shift within a 15-minute acknowledgement SLA.",
+            "Investigate reported phishing using Defender for Office 365 and URL detonation; contained 9 credential-harvesting campaigns by removing emails and blocking indicators.",
+            "Wrote KQL queries for impossible-travel and repeated MFA failure checks that L2 analysts reuse for escalations.",
+            "Reduced false-positive escalations by about 20% after documenting client-specific known-good activity in the runbook.",
+            "Prepare weekly alert summaries for clients showing volume, closure time and top alert types."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Sentinel Alert Noise Review Problem: Alerts about service account sign-ins consumed analyst time. Approach: Reviewed three months of incidents, identified benign patterns and proposed watchlist-based exclusions to the L2 lead. Technologies: Microsoft Sentinel, KQL Results: Exclusions approved for two clients, removing roughly 18% of low-value alerts. Email Security Awareness Dashboard (Academic) Problem: Show phishing susceptibility trends for a college simulation. Approach: Ran a simulated phishing exercise with consent, analysed click rates by department and presented recommendations. Technologies: Excel, Python, GoPhish Results: Click rate fell from 24% to 11% after awareness sessions.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Microsoft SC-900 Security",
+        "Compliance and Identity Fundamentals",
+        "CompTIA Security+ (2025)"
+      ],
+      "achievements": [
+        "Employee of the Quarter",
+        "Q2 2026 for ticket quality and SLA performance.",
+        "Zero missed SLA breaches in six consecutive months."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-017",
+    "updated_at": "2026-10-26T09:13:43.881300+00:00",
+    "professional_info": {
+      "professional_summary": "SOC Analyst L2 with over three years of experience investigating Splunk alerts and EDR detections for BFSI and retail clients. Experienced in ransomware, credential theft and phishing investigations, with solid use of MITRE ATT&CK to document findings. Handles escalations from L1 and writes incident reports for client security teams.",
+      "technical_skills": [
+        "Incident Investigation: Alert validation",
+        "scoping",
+        "timeline reconstruction",
+        "containment recommendations",
+        "incident",
+        "reports",
+        "SIEM: Splunk Enterprise Security (correlation searches",
+        "notable events)",
+        "SPL",
+        "dashboards",
+        "EDR: CrowdStrike Falcon (detections",
+        "host containment",
+        "RTR)",
+        "process tree analysis",
+        "Threat Intelligence: IOC enrichment with VirusTotal",
+        "AlienVault OTX and MISP lookups",
+        "MITRE ATT&CK",
+        "mapping",
+        "Log Analysis: Windows Event Logs",
+        "Sysmon",
+        "proxy",
+        "DNS and firewall logs",
+        "Process: Playbook authoring",
+        "L1 mentoring",
+        "shift handover",
+        "client communications"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "SOC Analyst L2 - Konkan Cyber Defence Services Pvt Ltd",
+            "Mumbai, Maharashtra | Jul 2024 - Present",
+            "Investigate escalated incidents from Splunk ES and CrowdStrike for six clients; average time to containment",
+            "recommendation 42 minutes for high-severity cases.",
+            "Led the analysis of a ransomware precursor incident in a retail client: traced suspicious PowerShell and",
+            "credential dumping to an unpatched VPN host, isolated three endpoints and delivered an incident report within",
+            "24 hours.",
+            "Tuned 12 Splunk correlation searches (threshold and allow-list changes), reducing false positives by 27%.",
+            "Authored five playbooks for phishing, malware, brute force, impossible travel and suspicious PowerShell.",
+            "Coach three L1 analysts on triage quality and ATT&CK mapping.",
+            "SOC Analyst L1 - Konkan Cyber Defence Services Pvt Ltd",
+            "Mumbai, Maharashtra | Jul 2023 - Jun 2024",
+            "Triaged about 40 alerts per shift in Splunk, escalating validated incidents with evidence and IOC lists.",
+            "Performed phishing and malware triage using sandbox reports and threat intelligence lookups.",
+            "Maintained shift logs and handover notes with a 100% completeness rating in quarterly audits."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Detection Tuning for Brute-force Alerts Problem: Authentication alerts created heavy noise from service accounts and VPN gateways. Approach: Profiled normal behaviour by account type, added lookups for known-good sources and moved from fixed thresholds to per-account baselines. Technologies: Splunk SPL, Lookups Results: Brute-force alert volume dropped 38% with no missed true positives in back-testing. ATT&CK Coverage Mapping Problem: The team could not see which techniques its detections covered. Approach: Mapped 90 existing correlation searches to ATT&CK techniques and visualised gaps in a matrix. Technologies: MITRE ATT&CK Navigator, Excel Results: Identified six high-priority gaps that were added to the detection backlog.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "CompTIA Security+ (2023)",
+        "Splunk Core Certified Power User (2024)",
+        "Blue Team Level 1 (BTL1) (2024)"
+      ],
+      "achievements": [
+        "Promoted from L1 to L2 in 12 months.",
+        "Recognised by a client for rapid containment during a credential theft incident."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-018",
+    "updated_at": "2026-10-26T09:13:43.714294+00:00",
+    "professional_info": {
+      "professional_summary": "Senior Security Analyst with over six years of experience across SOC operations, threat hunting and detection engineering on Microsoft Sentinel and Defender XDR. Writes KQL and Sigma detections mapped to MITRE ATT&CK, automates response with Logic Apps and Python, and reports detection coverage to security leadership.",
+      "technical_skills": [
+        "SIEM and XDR: Microsoft Sentinel (analytics rules",
+        "workbooks",
+        "hunting queries)",
+        "Microsoft Defender XDR",
+        "KQL",
+        "Detection Engineering: Sigma rules",
+        "MITRE ATT&CK mapping",
+        "detection testing with Atomic Red Team",
+        "tuning and false positive reduction",
+        "Threat Hunting: Hypothesis-driven hunts",
+        "LOLBin abuse",
+        "Kerberoasting",
+        "lateral movement analysis",
+        "Automation: Sentinel playbooks (Logic Apps)",
+        "Python scripting",
+        "REST APIs",
+        "Incident Response: Triage",
+        "containment",
+        "eradication coordination",
+        "post-incident reviews",
+        "Cloud Security: Azure activity logs",
+        "Entra ID protection",
+        "Defender for Cloud basics"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Senior Security Analyst - Detection and Response - Bhima Secure Technologies Pvt Ltd",
+            "Pune, Maharashtra | Apr 2024 - Present",
+            "Own the Sentinel detection backlog for a 30-person SOC; built and tested 45 analytics rules mapped to ATT&CK, raising technique coverage from 38% to 61% of the target set.",
+            "Ran monthly threat hunts; one Kerberoasting hunt found an over-privileged service account, remediated within a week.",
+            "Automated enrichment and ticket creation with Logic Apps playbooks, saving analysts about 6 minutes per incident.",
+            "Report mean time to detect and mean time to respond to security leadership each month.",
+            "SOC Analyst L2 - Bhima Secure Technologies Pvt Ltd",
+            "Pune, Maharashtra | Aug 2021 - Mar 2024",
+            "Handled escalations for endpoint, identity and email incidents; led investigations of business email compromise cases involving mailbox rule abuse.",
+            "Authored the first set of Sigma rules converted to KQL for the SOC.",
+            "Participated in tabletop exercises and led the post-incident review for a malware outbreak affecting 14 endpoints.",
+            "SOC Analyst L1 - Bhima Secure Technologies Pvt Ltd",
+            "Pune, Maharashtra | Aug 2020 - Jul 2021",
+            "Monitored SIEM alerts, performed first-level triage and phishing analysis, and documented cases in the ticketing system."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Detection-as-Code Pipeline Problem: Detections were created manually with inconsistent testing. Approach: Stored Sigma and KQL rules in Git, validated syntax in CI and ran Atomic Red Team tests in a lab before deployment. Technologies: Git, Python, Sentinel, Atomic Red Team Results: Cut rule deployment time from days to hours and reduced faulty rule releases. Sentinel Coverage Dashboard Problem: Leadership lacked visibility into which attack techniques were detected. Approach: Combined rule metadata and incident outcomes in a Sentinel workbook mapped to ATT&CK tactics. Technologies: KQL, Sentinel Workbooks Results: Used to prioritise the quarterly detection roadmap.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "Microsoft SC-200 Security Operations Analyst",
+        "CompTIA CySA+ (2022)",
+        "Microsoft AZ-500 Azure Security Engineer (2023)"
+      ],
+      "achievements": [
+        "Raised ATT&CK detection coverage from 38% to 61% in 12 months.",
+        "Speaker at a local security community meet-up on detection-as-code",
+        "2025."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-019",
+    "updated_at": "2026-10-26T09:13:43.897416+00:00",
+    "professional_info": {
+      "professional_summary": "SOC Manager with over eleven years of experience in security operations and incident response across banking and telecom environments. Runs a 24x7 SOC with QRadar and Splunk, owns incident response and reporting, and has led digital forensics on complex cases. Combines hands-on investigation experience with team leadership and risk communication.",
+      "technical_skills": [
+        "SOC Management: 24x7 shift planning",
+        "SOC KPIs (MTTD",
+        "MTTR)",
+        "runbooks",
+        "escalation matrix",
+        "vendor",
+        "management",
+        "hiring and mentoring",
+        "SIEM: IBM QRadar (rules",
+        "offenses",
+        "reference sets)",
+        "Splunk Enterprise Security",
+        "use case design",
+        "Incident Response and Forensics: IR lifecycle",
+        "Volatility",
+        "Autopsy",
+        "disk and memory triage",
+        "evidence handling",
+        "Network Security: Palo Alto and Fortinet firewall logs",
+        "IDS and IPS",
+        "proxy and DNS analysis",
+        "packet analysis",
+        "Governance: ISO 27001 controls",
+        "PCI DSS evidence",
+        "security incident reporting",
+        "tabletop exercises",
+        "Threat Intelligence: MITRE ATT&CK",
+        "threat feeds integration",
+        "intelligence-led use cases"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "SOC Manager - Yamuna Financial Security Services Pvt Ltd",
+            "Gurugram, Haryana | Sep 2023 - Present",
+            "Manage a SOC team of 16 analysts across three shifts supporting banking clients; own staffing, training, quality",
+            "reviews and client reporting.",
+            "Reduced mean time to respond for high-severity incidents from 95 minutes to 52 minutes through revised",
+            "escalation paths and better playbooks.",
+            "Led response to a business email compromise and fraud attempt, coordinating containment, evidence",
+            "preservation and client communication within the same day.",
+            "Introduced monthly purple-team exercises with the red team, producing 22 new detection use cases in the first",
+            "year.",
+            "Senior SOC Analyst and IR Lead - Yamuna Financial Security Services Pvt Ltd",
+            "Gurugram, Haryana | Jan 2020 - Aug 2023",
+            "Led incident response for severe cases, including a ransomware attempt on a telecom client contained at one",
+            "file server.",
+            "Built QRadar use cases for lateral movement and data exfiltration, reducing false offenses by 30%.",
+            "Performed disk and memory forensics for insider threat investigations and prepared evidence for legal teams.",
+            "SOC Analyst - Gomti Telecom Security Operations Pvt Ltd",
+            "Noida, Uttar Pradesh | Apr 2017 - Dec 2019",
+            "Monitored QRadar offenses, investigated phishing and malware cases and prepared weekly security reports.",
+            "Implemented log source onboarding for 40 network and server devices.",
+            "Network Security Engineer - Gomti Telecom Security Operations Pvt Ltd",
+            "Noida, Uttar Pradesh | Jul 2015 - Mar 2017",
+            "Administered Palo Alto firewall rules and change management; reviewed rulebases to remove 250 unused",
+            "rules."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "SOC Metrics and Quality Framework Problem: Management had limited insight into SOC effectiveness. Approach: Defined KPI set, built dashboards in Splunk and introduced monthly case quality sampling. Technologies: Splunk, QRadar, Excel Results: Case quality score improved from 78% to 91% across a year. Ransomware Readiness Exercise Problem: Clients lacked tested response plans. Approach: Designed a tabletop scenario, ran it with IT, legal and business teams and documented improvement actions. Technologies: Tabletop exercise design, IR playbooks Results: Closed 18 actions including backup isolation and communications templates.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "CISSP (2021)",
+        "GIAC Certified Incident Handler (GCIH",
+        "2020)",
+        "IBM Certified QRadar SIEM Analyst",
+        "Certified Ethical Hacker (CEH",
+        "2017)"
+      ],
+      "achievements": [
+        "Promoted to SOC Manager in 2023 after leading the incident response function.",
+        "Reduced mean time to respond by 45% in 18 months."
+      ]
+    }
+  },
+  {
+    "candidate_id": "CAND-020",
+    "updated_at": "2026-10-26T09:13:43.743851+00:00",
+    "professional_info": {
+      "professional_summary": "Security analyst with over eight years of experience in vulnerability management and cyber threat intelligence. Runs enterprise scanning programmes, prioritises remediation using CVSS, EPSS and exploit intelligence, and supplies actionable threat reports to SOC and engineering teams. Strong in reporting and stakeholder coordination.",
+      "technical_skills": [
+        "Vulnerability Management: Tenable Nessus",
+        "Qualys VMDR",
+        "Rapid7 InsightVM",
+        "authenticated scanning",
+        "CVSS and EPSS prioritisation",
+        "patch SLA tracking",
+        "Threat Intelligence: MISP",
+        "OpenCTI",
+        "threat actor profiling",
+        "IOC lifecycle",
+        "MITRE ATT&CK mapping",
+        "intelligence reporting",
+        "SIEM and Detection Support: Splunk (searches",
+        "dashboards)",
+        "use case requests from intelligence",
+        "IOC matching",
+        "Reporting: Executive risk dashboards",
+        "remediation SLA reports",
+        "Power BI",
+        "Excel",
+        "Cloud and Infrastructure: AWS Inspector",
+        "container image scanning with Trivy",
+        "Linux and Windows hardening basics",
+        "Process: Risk acceptance workflow",
+        "change coordination",
+        "audit evidence for ISO 27001"
+      ],
+      "work_experience": [
+        {
+          "job_title": "Role details extracted from resume",
+          "employer": null,
+          "start_date": null,
+          "end_date": null,
+          "responsibilities": [
+            "Lead Security Analyst - Vulnerability and Threat Intelligence - Lalbagh Digital Assurance Pvt Ltd",
+            "Bengaluru, Karnataka | Jan 2023 - Present",
+            "Run vulnerability management for about 9,000 assets; moved prioritisation from CVSS alone to CVSS plus EPSS and exposure, cutting the critical backlog by 52% in nine months.",
+            "Met a 14-day critical patch SLA on 93% of internet-facing assets after introducing weekly remediation reviews with infrastructure owners.",
+            "Maintain a MISP instance and publish weekly threat briefs to SOC and leadership, with IOC feeds integrated into Splunk.",
+            "Lead a team of three analysts and report vulnerability and threat metrics monthly to the CISO.",
+            "Senior Security Analyst - Threat Intelligence - Lalbagh Digital Assurance Pvt Ltd",
+            "Bengaluru, Karnataka | Jul 2020 - Dec 2022",
+            "Built an intelligence collection plan covering sector-specific threat actors and mapped common techniques to detection gaps.",
+            "Produced 30+ intelligence reports; two led directly to new Splunk detections for credential phishing kits.",
+            "Automated IOC enrichment with Python scripts that cut manual lookups by about 60%.",
+            "Security Analyst - Lalbagh Digital Assurance Pvt Ltd",
+            "Bengaluru, Karnataka | Aug 2018 - Jun 2020",
+            "Performed authenticated vulnerability scans with Nessus and Qualys and produced remediation reports for infrastructure teams.",
+            "Supported ISO 27001 audit evidence collection for vulnerability and patch management controls."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "project_name": "Projects listed in resume",
+          "description": "Risk-Based Prioritisation Model Problem: Teams were overwhelmed by thousands of high CVSS findings. Approach: Combined CVSS, EPSS, asset criticality, internet exposure and known exploitation to rank vulnerabilities in a weighted score. Technologies: Python, Power BI, Qualys API Results: Focus on the top-ranked 12% of findings removed most exploitable exposure in two quarters. Threat Intelligence Sharing Workflow Problem: Intelligence was shared ad hoc by email. Approach: Set up MISP with tagging standards, review workflow and automatic export of vetted IOCs to Splunk. Technologies: MISP, Python, Splunk Results: Reduced time from intelligence receipt to detection deployment from five days to one day.",
+          "technologies": []
+        }
+      ],
+      "education": [
+        {
+          "qualification": "Education details listed in resume",
+          "institution": null,
+          "graduation_year": null
+        }
+      ],
+      "certifications": [
+        "CompTIA CySA+ (2020)",
+        "GIAC Cyber Threat Intelligence (GCTI",
+        "2022)",
+        "Certified Ethical Hacker (CEH",
+        "2019)",
+        "Qualys Certified Specialist: Vulnerability Management"
+      ],
+      "achievements": [
+        "Reduced critical vulnerability backlog by 52% in nine months.",
+        "Recognised with the company Security Champion award",
+        "2024."
+      ]
+    }
+  }
+]

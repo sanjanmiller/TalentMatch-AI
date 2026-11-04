@@ -1,0 +1,93 @@
+Job Title
+---------
+SOC Analyst – Level 2
+
+Company Overview
+----------------
+Sentrix Cyber Defence Pvt. Ltd. is a managed detection and response company based in
+Gurugram. It operates a 24x7 security operations centre serving banking, telecom and
+e-commerce clients in India.
+
+Role Summary
+------------
+The Level 2 SOC Analyst investigates incidents escalated by Level 1, works independently
+on deep-dive analysis across SIEM, EDR, network and identity data, coordinates
+containment, and improves detections. The role also guides Level 1 analysts and writes
+incident reports for client security teams.
+
+Key Responsibilities
+--------------------
+- Investigate escalated alerts and perform deep-dive analysis across SIEM, EDR, network
+  and identity logs.
+- Develop and tune SIEM queries and correlation rules in KQL, SPL or AQL to improve
+  detection and reduce false positives.
+- Use EDR tools to investigate endpoints, contain hosts and collect triage artefacts
+  under approved procedures.
+- Carry out hypothesis-based threat hunts guided by MITRE ATT&CK.
+- Coordinate incident containment and response with IT teams and application owners, and
+  guide Level 1 analysts.
+- Analyse Windows and Linux logs, including Sysmon, authentication logs and syslog, to
+  establish scope and timeline.
+- Perform root-cause analysis and write incident reports with clear findings and
+  recommendations.
+- Update runbooks and propose detection improvements.
+
+Required Technical Skills
+-------------------------
+- SIEM query development and correlation in at least one of Microsoft Sentinel (KQL),
+  Splunk (SPL) or IBM QRadar (AQL).
+- EDR investigation with Microsoft Defender for Endpoint, CrowdStrike, SentinelOne or a
+  comparable tool.
+- Windows and Linux log analysis, including Sysmon.
+- MITRE ATT&CK: mapping alerts and detections to techniques.
+- Incident investigation and response: containment, eradication guidance, timeline
+  reconstruction and root-cause analysis.
+- Network analysis using DNS, proxy and firewall logs and packet captures.
+- Use of threat intelligence for indicator enrichment.
+- Incident reporting for technical and non-technical audiences.
+
+Required Experience
+-------------------
+- 2 to 5 years in a SOC or security operations role.
+- At least 1 year handling escalated incidents independently, at Level 2 or an
+  equivalent level.
+- At least one example of writing or tuning a SIEM detection rule or query.
+- Participation in at least one incident that involved several teams.
+
+Education
+---------
+B.Tech, B.E., BCA, B.Sc., MCA or M.Sc. in Computer Science, Information Technology,
+Cybersecurity, Electronics or a related field. Equivalent experience with relevant
+security training may be considered.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): Microsoft SC-200, Splunk Core Certified Power
+User, CompTIA CySA+, GIAC Certified Incident Handler (GCIH), or Certified SOC Analyst
+(CSA).
+
+Preferred Qualifications
+------------------------
+- Threat hunting experience.
+- SOAR playbook development.
+- Scripting in Python or PowerShell.
+- Cloud security logs from Azure or AWS.
+- Vulnerability management exposure.
+- Digital forensics tooling.
+
+Evaluation Priorities
+---------------------
+- Investigation of escalated incidents with described scope, containment and outcome.
+- SIEM query or rule development and tuning, shown with specific examples.
+- EDR use in real investigations.
+- Incident reports and root-cause analysis.
+- Preferred capabilities such as threat hunting and SOAR are secondary to the required
+  evidence. Certifications are preferred only.
+
+Employment Details
+------------------
+- Location: Gurugram, Haryana
+- Employment type: Full-time, permanent
+- Work arrangement: Hybrid, three days per week in office, with rotational shifts and an
+  on-call roster

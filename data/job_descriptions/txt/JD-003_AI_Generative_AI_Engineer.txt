@@ -1,0 +1,94 @@
+Job Title
+---------
+AI / Generative AI Engineer
+
+Company Overview
+----------------
+Lumen Cloud Systems Pvt. Ltd. is an enterprise software company based in Hyderabad. It
+builds knowledge-management and workflow products for banks, insurers and manufacturers
+in India, and is adding generative AI features to its platform.
+
+Role Summary
+------------
+The AI / Generative AI Engineer designs, builds and deploys applications powered by
+large language models, such as document question answering, summarisation and
+assistants. The work centres on retrieval-augmented generation (RAG), prompt design,
+evaluation of answer quality and integration of AI services into production
+applications.
+
+Key Responsibilities
+--------------------
+- Build LLM-powered applications using hosted or open-source models through APIs.
+- Build RAG pipelines covering document ingestion, chunking, embeddings, indexing in a
+  vector database, retrieval, reranking and grounded answer generation.
+- Write prompts and enforce structured outputs (JSON schema validation) with citations
+  to source passages.
+- Create test sets and measure retrieval quality (for example recall@k and MRR) and
+  answer quality, and apply groundedness checks to reduce hallucination.
+- Integrate AI services into applications through REST APIs, handling latency, caching,
+  token cost and error handling.
+- Apply responsible-AI practices: PII handling, access control on retrieved content,
+  awareness of prompt injection and audit logging.
+- Deploy services with Docker on a cloud platform and monitor them.
+
+Required Technical Skills
+-------------------------
+- Python and REST API development (FastAPI or Flask).
+- Hands-on LLM application development with hosted or open models, including prompt
+  engineering and structured (JSON) outputs.
+- RAG design and implementation: chunking, embeddings, vector search and retrieval,
+  shown in at least one project.
+- Embeddings and at least one vector database or index (for example FAISS, Chroma,
+  Qdrant or pgvector).
+- Evaluation of LLM and retrieval outputs: test sets, retrieval metrics, groundedness
+  and hallucination checks.
+- Git, Docker basics, JSON and basic SQL.
+- Orchestration: experience with LangChain, LlamaIndex or a comparable framework, or
+  with custom orchestration code. No specific framework is mandatory.
+
+Required Experience
+-------------------
+- 2 to 5 years in software engineering, machine learning or data roles.
+- At least 1 year, or two substantial projects, building LLM or RAG applications.
+- At least a working prototype with some form of evaluation. Production or pilot
+  deployment is preferred but not mandatory.
+- Experience limited to classical machine learning without LLM or RAG work does not meet
+  the core requirement.
+
+Education
+---------
+B.Tech, B.E., MCA, M.Tech or M.Sc. in Computer Science, Information Technology, AI or a
+related field. Candidates with other qualifications may be considered when project
+evidence is strong.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): Microsoft Azure AI Engineer Associate
+(AI-102), Azure AI Fundamentals (AI-900), an AWS or Google Cloud certification, or a
+generative AI course certificate.
+
+Preferred Qualifications
+------------------------
+- Fine-tuning of language models (for example LoRA).
+- Agent or tool-calling workflows.
+- Hybrid search (BM25 plus dense retrieval) and rerankers.
+- Kubernetes.
+- Hosting of open-source LLMs.
+- Guardrail libraries and LLM application security testing.
+- Streamlit for internal demos.
+
+Evaluation Priorities
+---------------------
+- An end-to-end RAG or LLM application with named components: embeddings, vector store,
+  retrieval and generation.
+- Evaluation work, such as test sets, metrics and hallucination mitigation.
+- API integration and deployment evidence.
+- Specific framework names are secondary to evidence of the underlying concepts.
+- Certifications are preferred only.
+
+Employment Details
+------------------
+- Location: Hyderabad, Telangana
+- Employment type: Full-time, permanent
+- Work arrangement: Hybrid, three days per week in office

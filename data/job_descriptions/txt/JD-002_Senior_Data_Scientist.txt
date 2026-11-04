@@ -1,0 +1,96 @@
+Job Title
+---------
+Senior Data Scientist
+
+Company Overview
+----------------
+Orion Commerce Analytics Pvt. Ltd. is a product-analytics company based in Pune. It
+provides pricing, demand forecasting and customer analytics platforms to e-commerce and
+consumer brands in India and Southeast Asia.
+
+Role Summary
+------------
+The Senior Data Scientist owns analytical solutions end to end: framing the business
+problem, designing experiments, building and validating models, and working with
+engineers to put them into monitored production use. The role also involves mentoring
+two to three junior data scientists and reporting business impact to senior
+stakeholders.
+
+Key Responsibilities
+--------------------
+- Frame ambiguous business problems as measurable data science problems with agreed
+  success metrics.
+- Design and analyse experiments, including A/B tests, and apply statistical modelling
+  such as regression, time-series or survival methods where suitable.
+- Develop supervised and unsupervised models (classification, regression, clustering)
+  with documented feature engineering.
+- Validate models rigorously using suitable cross-validation, leakage checks,
+  calibration and error analysis.
+- Work with machine learning and data engineers to deploy models as batch or API
+  services and define monitoring for data drift and model performance.
+- Quantify business impact of models and communicate results to senior stakeholders.
+- Mentor junior data scientists through code review, analysis-plan review and day-to-day
+  guidance.
+
+Required Technical Skills
+-------------------------
+- Advanced Python (Pandas, NumPy, Scikit-learn, Statsmodels) and advanced SQL (CTEs,
+  window functions, query optimisation).
+- Statistical modelling and experimentation: hypothesis testing, A/B test design, power
+  analysis and regression.
+- Supervised and unsupervised machine learning: gradient boosting (XGBoost or LightGBM),
+  random forests, clustering and dimensionality reduction.
+- Feature engineering and model validation: cross-validation strategies, leakage
+  prevention, metric selection and calibration.
+- Working knowledge of model deployment and monitoring: packaging models, batch or API
+  serving with engineering teams, drift monitoring and retraining triggers.
+- Data visualisation and storytelling for business stakeholders.
+
+Required Experience
+-------------------
+- 5 to 8 years in data science or applied analytics.
+- At least 3 years building predictive or statistical models that were used in business
+  decisions.
+- At least one model or analytical solution taken into production or regular operational
+  use, with the candidate's own contribution clearly described.
+- At least one example of measured business impact with a quantified outcome.
+- At least 1 year of mentoring or reviewing the work of others, formal or informal.
+
+Education
+---------
+Bachelor's degree in Computer Science, Statistics, Mathematics, Engineering or a related
+field. A Master's degree (M.Tech, M.Sc., MCA) is preferred but not mandatory. Equivalent
+practical experience may substitute for formal qualifications.
+
+Certifications
+--------------
+Mandatory certifications: None.
+Preferred certifications (not mandatory): AWS Certified Machine Learning - Specialty,
+Microsoft Azure Data Scientist Associate (DP-100), Google Cloud Professional Machine
+Learning Engineer, or a recognised statistics or experimentation course certificate.
+
+Preferred Qualifications
+------------------------
+- Time-series forecasting.
+- Deep learning or NLP.
+- Spark or PySpark.
+- MLflow, Airflow or Docker.
+- Causal inference or uplift modelling.
+- Retail or e-commerce domain experience.
+
+Evaluation Priorities
+---------------------
+- Models in production or regular operational use, with the candidate's own role and a
+  quantified impact.
+- Depth in experimentation and validation methods, described beyond a list of model
+  names.
+- Evidence of working with engineers on deployment and monitoring.
+- Evidence of mentoring or technical leadership.
+- Preferred technologies are secondary and should not outweigh the required evidence.
+  Certifications are preferred only.
+
+Employment Details
+------------------
+- Location: Pune, Maharashtra
+- Employment type: Full-time, permanent
+- Work arrangement: Hybrid, two days per week in office

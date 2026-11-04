@@ -1,0 +1,27 @@
+
+# Frontend and workflow orchestration
+streamlit
+langgraph
+langgraph-checkpoint-sqlite
+
+# Databases and document parsing
+chromadb
+PyMuPDF
+python-docx
+
+# Embeddings
+sentence-transformers
+
+# Data validation and configuration
+pydantic
+python-dotenv
+
+# LLM providers
+# google-genai >= 2.33 is required:
+#   - supports AI Studio "Auth" keys that start with "AQ."
+#   - supports Python 3.14
+google-genai>=2.33
+groq
+
+# Testing
+pytest
